@@ -25,11 +25,11 @@ export default function DisplayScreen() {
 
 
   return (
-    <div className='parent-most'>
-        <h1 id='cal' >Calculator app</h1>
-        <div className='parent-container'>
-            <input className='input' id='int' type="text" placeholder='0' value={inputvalue} readOnly />
-            <input className='input' id='in' type="text" placeholder='0' value={result} readOnly />
+    <div className='parent'>
+        <h1 id='title' >CALCULATOR APP🧮</h1>
+        <div id='parent-container'>
+            <input className='input' id='number' type="text" placeholder='0' value={inputvalue} readOnly />
+            <input className='input' id='input' type="text" placeholder='0' value={result} readOnly />
 
         </div>
         <div className='btn'>

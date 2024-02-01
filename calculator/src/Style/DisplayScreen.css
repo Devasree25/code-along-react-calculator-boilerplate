@@ -1,13 +1,13 @@
-.parent-most {
+.parent {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #b1f7f7; 
+  background-color: pink; 
   color: white; 
 }
 
-.parent-container {
+#parent-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -39,17 +39,17 @@ Button{
   height: 10vh;
   width: 5vw;
 }
-#in{
+#input{
 position: relative;
 top: 58.9px;
 width: 19vw;
 }
-#int{
+#number{
 position: relative;
 top:70px;
 width: 19vw;
 
 }
-#cal{
-color:red;
+#title{
+color:blue;
 }
